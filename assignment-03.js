@@ -5,7 +5,6 @@
 function kilometerToMeter(kilometer)
 {
  //var k= Math.abs(kilometer);
-
  if(kilometer<0)
  {
    return "Wrong answer,try again!";
@@ -20,9 +19,6 @@ console.log(kilometerToMeter(5));
 //2.budgetCalculator
 function budgetCalculator(watch,phone,laptop){
 
-    // var w=Math.abs(watch);
-    // var p=Math.abs(phone);
-    // var l=Math.abs(laptop);
     if(watch<0||phone<0||laptop<0)
     {
         return "Wrong answer,try again!";
@@ -33,6 +29,8 @@ function budgetCalculator(watch,phone,laptop){
     return result;
 }
 console.log(budgetCalculator(-1,2,3));
+
+
 
 
 //3.Hotelcost
@@ -67,6 +65,7 @@ else if(day>20){
 return tcost;
 }
 console.log(hotelCost(25));
+
 
 
 //4.finding larger friend name
