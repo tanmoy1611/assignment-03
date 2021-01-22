@@ -76,7 +76,7 @@ function megaFriend(friendNames)
 max=friendNames[0].length;
 if(friendNames==" ")
 {
-    return "Wrong,Please enter your friend name "
+    return "Wrong,Please enter your friend name!"
 }
 
 for(i=0;i<friendNames.length;i++)
