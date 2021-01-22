@@ -1,6 +1,3 @@
-//https://github.com/tanmoy1611/assignment-03
-
-
 //1.Kilo To Meter
 function kilometerToMeter(kilometer)
 {
