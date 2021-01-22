@@ -8,7 +8,7 @@ function kilometerToMeter(kilometer)
 
  if(kilometer<0)
  {
-   return "wrong answer,try again!";
+   return "Wrong answer,try again!";
  }
  
    var meter=1000*kilometer;;
@@ -26,7 +26,7 @@ function budgetCalculator(watch,phone,laptop){
     // var l=Math.abs(laptop);
     if(watch<0||phone<0||laptop<0)
     {
-        return "wrong answer,try again!";
+        return "Wrong answer,try again!";
     }
 
     var result=watch*50+phone*100+laptop*500;
@@ -46,7 +46,7 @@ var tcost=0
 
 if(day<=0)
 {
-    return "wrong answer,try again!";
+    return "Wrong answer,try again!";
 }
 
 if(day<=10){
@@ -99,3 +99,6 @@ for(i=0;i<friendNames.length;i++){
 // var friendNames=["Tanmoy",'pranto','opi','arko'];
 var friendNames=[" "];
 console.log(megaFriend(friendNames));
+
+//End
+//Thanks
