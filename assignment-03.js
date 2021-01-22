@@ -10,8 +10,7 @@ function kilometerToMeter(kilometer)
  {
    return "Wrong answer,try again!";
  }
- 
-   var meter=1000*kilometer;;
+  var meter=1000*kilometer;;
     return meter;
 }
 console.log(kilometerToMeter(5));
@@ -76,7 +75,7 @@ function megaFriend(friendNames)
 max=friendNames[0].length;
 if(friendNames==" ")
 {
-    return "Wrong,Please enter your friend name!"
+    return "Wrong,Please enter your friends name!"
 }
 
 for(i=0;i<friendNames.length;i++)
@@ -95,7 +94,6 @@ for(i=0;i<friendNames.length;i++){
     }   
 }
 }
-
 // var friendNames=["Tanmoy",'pranto','opi','arko'];
 var friendNames=[" "];
 console.log(megaFriend(friendNames));
