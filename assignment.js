@@ -7,12 +7,12 @@ function kilometerToMeter(kilometer)
 {
  if(kilometer<0)
  {
-   return "Wrong answer,distance cannot be negative,try again!";
+   return "Wrong input,distance cannot be negative,try again!";
  }
   var meter=1000*kilometer;;
     return meter;
 }
-console.log(kilometerToMeter(5));
+console.log(kilometerToMeter(-5));
 
 
 
@@ -21,12 +21,12 @@ function budgetCalculator(watch,phone,laptop){
 
     if(watch<0||phone<0||laptop<0)
     {
-        return "Wrong answer,amount or quantity cannot be negative,try again!";
+        return "Wrong input,amount or quantity cannot be negative,try again!";
     }
     var result=watch*50+phone*100+laptop*500;
     return result;
 }
-console.log(budgetCalculator(-1,2,3));
+console.log(budgetCalculator(3,5,7));
 
 
 
@@ -41,7 +41,7 @@ var tcost=0
 
 if(day<=0)
 {
-    return "Wrong answer,day cannot be be negative,try again!";
+    return "Wrong input,day cannot be be negative,try again!";
 }
 
 if(day<=10){
@@ -62,7 +62,7 @@ else if(day>20){
 }
 return tcost;
 }
-console.log(hotelCost(25));
+console.log(hotelCost(31));
 
 
 
@@ -72,7 +72,7 @@ function megaFriend(friendNames)
 max=friendNames[0].length;
 if(friendNames==" ")
 {
-    return "Wrong answer,Please enter your friends name!"
+    return "Wrong input,Please enter your friends name!"
 }
 
 for(i=0;i<friendNames.length;i++)
@@ -91,7 +91,7 @@ for(i=0;i<friendNames.length;i++){
     }   
 }
 }
-// var friendNames=["Tanmoy",'pranto','opi','arko'];
+ //var friendNames=["Tanmoy",'prant','opi','arko'];
 var friendNames=[" "];
 console.log(megaFriend(friendNames));
 
